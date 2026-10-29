@@ -1,0 +1,14 @@
+
+name: clustering-air-quality
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mlflow==2.22.0
+      - scikit-learn==1.6.1
+      - pandas==2.2.3
+      - numpy==2.2.4
